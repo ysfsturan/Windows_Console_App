@@ -17,7 +17,7 @@ namespace ConsoleAPP
             Console.WriteLine("Okuduğunuz Bölümü Giriniz:");
             string bolum = Console.ReadLine();
             Console.WriteLine($"{ad} {soyad} {bolum} bölümünde okuyor.");
-            Console.WriteLine("Devam etmek için 'ENTER' tuşuna basınız.");
+            Console.WriteLine("Devam etmek için bir tuşa basınız.");
             Console.ReadLine();
         }
     }
